@@ -35,6 +35,7 @@ class ViewController: UIViewController {
         
         carPrice1.frame = CGRect(x: 150, y: 50, width: 150, height: 44)
         carPrice1.placeholder = "总价";
+        carPrice1.keyboardType = .decimalPad
         self.view.addSubview(carPrice1)
         
         let label2 = UILabel()
@@ -45,6 +46,7 @@ class ViewController: UIViewController {
         
         carPrice2.frame = CGRect(x: 150, y: 100, width: 150, height: 44)
         carPrice2.placeholder = "总价";
+        carPrice2.keyboardType = .decimalPad
         self.view.addSubview(carPrice2)
         
         let label3 = UILabel()
@@ -55,6 +57,7 @@ class ViewController: UIViewController {
         
         gasAmount1.frame = CGRect(x: 150, y: 150, width: 150, height: 44)
         gasAmount1.placeholder = "油耗";
+        gasAmount1.keyboardType = .decimalPad
         self.view.addSubview(gasAmount1)
         
         let label4 = UILabel()
@@ -65,6 +68,7 @@ class ViewController: UIViewController {
         
         gasAmount2.frame = CGRect(x: 150, y: 200, width: 150, height: 44)
         gasAmount2.placeholder = "油耗";
+        gasAmount2.keyboardType = .decimalPad
         self.view.addSubview(gasAmount2)
         
         resultLbl.frame = CGRect(x: 10, y: 250, width: 300, height: 100)
